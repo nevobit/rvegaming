@@ -1,0 +1,9 @@
+.footer{
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+}
+
+.footer p{
+    text-align: center;
+    color: rgba(255, 255, 255, .5);
+}

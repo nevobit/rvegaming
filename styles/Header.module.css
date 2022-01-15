@@ -1,0 +1,48 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+.header nav{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.header nav a:first-child{
+    padding-right: 3rem;
+    border-right: 1px solid rgba(255, 255, 255, .1);
+}
+
+.header a{
+    font-size: 1.4rem;
+}
+
+.header img{
+    width: 130px;
+}
+
+.header > div{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.header .btn {
+    background-color: #4169e1;
+    padding: 1rem 2rem;
+    text-align: center;
+    border-radius: .5rem;
+    font-weight: 600;
+}
+
+.header .btnNone {
+    background-color: rgba(255, 255, 255, .1);
+    padding: 1rem 2rem;
+    text-align: center;
+    border-radius: .5rem;
+    font-weight: 600;
+}
