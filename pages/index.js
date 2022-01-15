@@ -59,10 +59,10 @@ export default function Home() {
           <p>Eres un streamer, un jugador profesional, un vlogger o una ama de casa?</p>
           <div className={styles.content}>
             <ul className={styles.platformList}>
-              <li><span>01</span> <span><i class='bx bxs-arrow-to-right' ></i> Participar en torneos</span></li>
-              <li><span>02</span> <span><i class='bx bxs-arrow-to-right' ></i> Crear transmisiones en vivo</span></li>
-              <li><span>03</span> <span><i class='bx bxs-arrow-to-right' ></i> Subir videos cortos</span></li>
-              <li><span>04</span> <span><i class='bx bxs-arrow-to-right' ></i> Chatear</span></li>
+              <li><span>01</span> <span><i className='bx bxs-arrow-to-right' ></i> Participar en torneos</span></li>
+              <li><span>02</span> <span><i className='bx bxs-arrow-to-right' ></i> Crear transmisiones en vivo</span></li>
+              <li><span>03</span> <span><i className='bx bxs-arrow-to-right' ></i> Subir videos cortos</span></li>
+              <li><span>04</span> <span><i className='bx bxs-arrow-to-right' ></i> Chatear</span></li>
             </ul>
             <img src="./trofeorve.png" alt="" />
           </div>
@@ -75,7 +75,7 @@ export default function Home() {
               <div>
                 <span>Hace 5 dias</span>
                 <p>Revolutionizing Mobile Gaming With A COnversation With Ex MAcAfee CTO Rosen Sharma</p>
-                <Link href=""><a><i class='bx bxs-right-arrow'></i></a></Link>
+                <Link href=""><a><i className='bx bxs-right-arrow'></i></a></Link>
               </div>
             </div>
             <div className={styles.card}>
@@ -83,7 +83,7 @@ export default function Home() {
               <div>
                 <span>Hace 5 dias</span>
                 <p>Revolutionizing Mobile Gaming With A COnversation With Ex MAcAfee CTO Rosen Sharma</p>
-                <Link href=""><a><i class='bx bxs-right-arrow'></i></a></Link>
+                <Link href=""><a><i className='bx bxs-right-arrow'></i></a></Link>
               </div>
             </div>
             <div className={styles.card}>
@@ -92,7 +92,7 @@ export default function Home() {
               <div>
                 <span>Hace 5 dias</span>
                 <p>Revolutionizing Mobile Gaming With A COnversation With Ex MAcAfee CTO Rosen Sharma</p>
-                <Link href=""><a><i class='bx bxs-right-arrow'></i></a></Link>
+                <Link href=""><a><i className='bx bxs-right-arrow'></i></a></Link>
               </div>
             </div>
           </div>

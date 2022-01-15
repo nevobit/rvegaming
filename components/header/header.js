@@ -4,7 +4,7 @@ export default function Header() {
     return (
         <header className={styles.header}>
             <nav>
-                <Link href=""><a><img src="./1rveg.svg" alt="" /></a></Link>
+                <Link href=""><a><img src="./2rveg.svg" alt="" /></a></Link>
                 <Link href=""><a>Inicio</a></Link>
                 <Link href=""><a>Premium</a></Link>
                 <Link href=""><a>Torneos</a></Link>
