@@ -185,3 +185,71 @@
   width: 300px;
   max-width: 300px;
 }
+
+@media screen and (max-width: 800px){
+
+  .section{
+    width: 100%;
+  }
+  .banner{
+    margin-top: 8rem;
+  }
+
+  .bannerContent{
+    left: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .bannerContent span{
+    font-size: 1.2rem;
+  }
+
+  .bannerDisplay a{
+    margin-top: 1rem;
+    width: 120px;
+    text-align: center;
+  }
+  
+  .cardContainer{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .section .content{
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+
+  .section .content img{
+    width: 100%;
+  }
+
+  .content ul{
+    width: 100%;
+  }
+
+  .platformList li span:nth-child(2){
+    width: 100%;
+  }
+
+  .cardContainerNews{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .cardContainerNews .card{
+    min-width: 100%;
+    width: 100%;
+    max-width: 100%;
+  }
+ 
+  .detailsContainer details{
+    max-width: 100%;
+    min-width: 100%;
+  }
+}
