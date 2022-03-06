@@ -1,15 +1,15 @@
 import Layout from "../components/Layout";
 import styles from '../styles/Login.module.css'
 import Link from 'next/link';
-import { useContext, useState } from "react";
 // import gql from "graphql-tag";
 import { useMutation, gql, ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
 import { useRouter } from "next/router";
 import { Store } from "../Store";
 import Cookies from "js-cookie";
-import { useEffect } from "react/cjs/react.development";
+import { useContext, useEffect, useState } from "react";
 export default function Register() {
 
+    
     const router = useRouter();
 
     const {state, dispatch} = useContext(Store);
