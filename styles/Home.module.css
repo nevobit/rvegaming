@@ -158,6 +158,8 @@
 .section .card img{
   width: 100%;
   border-radius: 1rem 1rem 0 0;
+  max-height: 150px;
+  overflow: hidden;
 }
 
 .section .card > div{
@@ -176,4 +178,10 @@
   right: 20px;
   bottom: 2px;
   font-size: 2rem;
+}
+
+.cardContainerNews .card{
+  min-width: 300px;
+  width: 300px;
+  max-width: 300px;
 }

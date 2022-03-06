@@ -1,0 +1,138 @@
+.aside{
+    width: 50px;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, .1);
+    position: fixed;
+    padding: 1rem;
+}
+
+.aside ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.aside ul .li{
+    background-color: rgba(255, 255, 255, .1);
+    padding: .5rem;
+    border-radius: .5rem;
+    color: rgba(255, 255, 255, .5);
+    transition: .7s;
+}
+
+.active{
+    padding: .5rem;
+    border-radius: .5rem;
+    color: #f2f6fa;
+    background-color: royalblue;
+    transition: .7s;
+    position: relative;
+}
+.active::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    background-color: royalblue;
+    width: 4px;
+    top: 0;
+    left: 35px;
+    border-radius: .5rem 0 0 .5rem;
+    transition: .7s;
+}
+
+.menu{
+    background-color: royalblue;
+    width: 50px;
+    height: 50px;
+    border-radius: 0;
+    margin-top: -10px;
+    margin-left: -10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.aside ul .li i{
+    font-size: 2rem;
+}
+
+.aside ul .active i{
+    font-size: 2rem;
+}
+@media screen and (max-width: 500px) {
+    .aside{
+        width: 100%;
+        height: 55px;
+        background-color: #202020;
+        position: fixed;
+        bottom: 0;
+        padding: 1rem;
+        z-index: 9999;
+    }
+
+    .aside ul{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 2rem;
+    }
+
+
+.aside ul .li{
+    background-color: rgba(255, 255, 255, .1);
+    padding: .5rem;
+    border-radius: .5rem;
+    color: rgba(255, 255, 255, .5);
+    transition: .7s;
+}
+
+.active{
+    padding: .5rem;
+    border-radius: .5rem;
+    color: #f2f6fa;
+    background-color: royalblue;
+    transition: .7s;
+    position: relative;
+}
+.active::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    background-color: royalblue;
+    height: 4px;
+    width: 100%;
+    top: 37px;
+    left: 0;
+    border-radius: 0 0 .5rem .5rem;
+    transition: .7s;
+}
+
+.menu{
+    background-color: royalblue;
+    width: 50px;
+    height: 50px;
+    border-radius: 0;
+    margin-top: -10px;
+    margin-left: -10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    display: none;
+}
+
+.aside ul .li i{
+    font-size: 2rem;
+}
+
+.aside ul .active i{
+    font-size: 2rem;
+}
+}
