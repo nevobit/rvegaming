@@ -48,7 +48,7 @@ export default function Home({posts}) {
 
       <Header />
       <div className={styles.banner}>
-        <img src="./banner12.jpg" alt="" />
+        <img src="./vikings.jpg" alt="" />
         <div className={styles.bannerContent}>
           <span>Entrada Gratis</span>
           <span>Liga RVE Gratis</span>
