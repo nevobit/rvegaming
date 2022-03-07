@@ -22,12 +22,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .cardContainer > div img{
   width: 5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+
+.cardContainer > div p{
+  font-size: 1.4rem;
 }
 .section{
   text-align: center;

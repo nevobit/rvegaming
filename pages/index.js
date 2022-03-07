@@ -74,20 +74,20 @@ export default function Home({posts}) {
           </p>
           <div className={styles.cardContainer}>
             <div>
-              <img src="./resume.png" alt="" />
+              <img src="./icono1.svg" alt="" />
               <p>Registrate y crea un perfil.</p>
               <p>Alocate. Relajate. Se tu.</p>
             </div>
             <div>
-              <img src="./point.png" alt="" />
+              <img src="./icono2.svg" alt="" />
               <p>Suma puntos, es importante si quieres mas sorpresas</p>
             </div>
             <div>
-              <img src="./community.png" alt="" />
+              <img src="./icono3.svg" alt="" />
               <p>Comparte con la comunidad y diviertete</p>
             </div>
             <div>
-              <img src="./winning.png" alt="" />
+              <img src="./icono4.svg" alt="" />
               <p>Gana muchos precios haciendo lo que amas. Ve por la gloria.</p>
             </div>
           </div>
